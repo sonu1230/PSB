@@ -1,0 +1,83 @@
+
+.MynEws{
+    font-family: 'Luxurious Script', cursive;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: wavy;
+    font-size: 60px;
+    margin: 40px 0;   /*---- Top and bottom 60 pixel margin and zero on sidewise -----*/
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
+}
+
+.row{
+    display: flex;
+    align-items: stretch;
+    
+}
+.column{
+    border:1px solid #333;
+    padding:2px 10px;
+    width:25%
+}
+.title{
+    font-weight: normal;
+    font-size :25px; 
+    font-style: italic;
+    text-align: center;
+    text-decoration:1px underline;
+    margin:30px
+}
+.story{
+    line-height: 1.2;
+    font-size: medium;
+}
+.column.second{
+    width:50%;
+}
+.story-img{
+    width:100%
+}
+.column.first1{
+    width: 24%;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.list-item{
+    flex:1;
+    font-size: 25px;
+    color: rgb(61, 60, 60);
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    display:flex;
+    align-items: center;
+    padding-left: 25px;   /* Moves 25px to left */
+}
+
+
+/* It doesnt popup but removes the bydefault specifications */
+.list-item a{
+    color: rgb(61, 60, 60);
+    text-decoration: none;
+}
+
+/* Hover classs for pop-up stuffs when mouse pointer moves at it0*/
+.list-item a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Coloring each item box */
+.list-item:nth-child(1){background-color: #ffeaa7;}
+.list-item:nth-child(2){background-color: #81ecec;}
+.list-item:nth-child(3){background-color: #55efc4;}
+.list-item:nth-child(4){background-color: #74b9ff;}
+.list-item:nth-child(5){background-color: #a29bfe;}
